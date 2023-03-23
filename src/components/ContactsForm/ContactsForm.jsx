@@ -3,7 +3,7 @@ import { Title, AddBtn } from './ContactsForm.styled';
 import { nanoid } from 'nanoid';
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { addContact } from 'redux/actions';
+import { addContact } from '../../redux/contactsSlice';
 
 const ContactsForm = () => {
   const dispatch = useDispatch()
